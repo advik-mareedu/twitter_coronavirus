@@ -45,5 +45,6 @@ for hashtag in args.keys:
 
 plt.xlabel('Date')
 plt.ylabel('Count')
+plt.legend()
 plt.title(f'Hashtag Counts Over Time')
 plt.savefig(f'plots/alternative_reduce.png')
