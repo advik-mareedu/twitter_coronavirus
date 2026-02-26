@@ -23,9 +23,9 @@ for path in args.input_paths:
         date_str = path.split('.')[0].split('-')[1:]
         month, day = date_str
         date_obj = datetime(2020, int(month), int(day))
-        for _,counts in tmp.items():
-            for hashtag, count, in counts.items():
-                total[date_obj][hashtag] += count
+        for hashtag,counts in tmp.items():
+            for lang, count, in counts.items():
+                total[date_obj][hashtag] += tmp[hashtag][lang]
 
 # write the output path
 json_total = {d.isoformat(): dict(total[d]) for d in total}
