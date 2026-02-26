@@ -38,7 +38,7 @@ for i in range(10):
     y.append(items[i][1])
 
 plt.bar(x,y)
-plt.xlabel(args.key)
-plt.ylabel('Values')
-plt.title(f'Coronavirus Key Country Bar Graph')
-plt.savefig(f'plots/{args.key}_country_bar_graph.png')
+plt.xlabel('Lang')
+plt.ylabel('Count')
+plt.title(f'#Coronavirus Key Language Bar Graph')
+plt.savefig(f'plots/{args.key}_lang_bar_graph.png')
