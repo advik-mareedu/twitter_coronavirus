@@ -26,15 +26,19 @@ The following visualizations were generated:
 
 - `coronavirus_lang.png`  
   → Top 10 languages using **#coronavirus**
+  ![coronavirus_lang_pic](src/plots/#coronavirus_lang_bar_graph.png)
 
 - `coronavirus_country.png`  
   → Top 10 countries using **#coronavirus**
+  ![coronavirus_country_pic](src/plots/#coronavirus_country_bar_graph.png)
 
 - `korean_lang.png`  
   → Top 10 languages using **#코로나바이러스**
+  ![korean_lang_pic](src/plots/#코로나바이러스_lang_bar_graph.png)
 
 - `korean_country.png`  
   → Top 10 countries using **#코로나바이러스**
+  ![korean_lang_pic](src/plots/#코로나바이러스_country_bar_graph.png)
 
 These plots show how COVID-related discussions differed geographically and linguistically across the world during 2020.
 
@@ -52,6 +56,7 @@ This program:
   - Each line represents a different hashtag
 
 This visualization highlights major spikes and waves in discussion throughout 2020, revealing how public attention evolved over time.
+![line_plot_covid](src/plots/alternative_reduce.png)
 
 ---
 
