@@ -56,6 +56,7 @@ This program:
   - Each line represents a different hashtag
 
 This visualization highlights major spikes and waves in discussion throughout 2020, revealing how public attention evolved over time.
+
 ![line_plot_covid](src/plots/alternative_reduce.png)
 
 ---
